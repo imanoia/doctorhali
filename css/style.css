@@ -15,7 +15,7 @@
 */
 
 body {
-    background-color: #fee;
+    background-color: rgba(130, 130, 200, 1);
     font-family: Open Sans, sans-serif;
     line-height: 1.5em;
 }
@@ -41,12 +41,12 @@ body {
     border-bottom: .1em dashed;
     border-right: 0;
     line-height: .2em;
-    border-bottom-color: #678;
+    border-bottom-color: #eee;
 
 }
 
 .tag h2 span {
-    background-color: #8a5674;
+    background-color: palevioletred;
     padding: .1em .1em;
     box-shadow: .1em palevioletred;
     color: #fff;
@@ -82,15 +82,18 @@ body {
 
 /*nav style start*/
 .header .navbar {
-    background-color: #678;
+    background-color: #555;
     color: aliceblue;
     overflow: hidden;
     border: .1em dotted;
     box-shadow: .2em .2em palevioletred;
 }
 
+.footer h4 span,
 .header .navbar h2 span {
     background-color: palevioletred;
+    border: .01em solid #fff;
+    border-radius: 50%;
 }
 
 .header .navbar ul {
@@ -173,7 +176,7 @@ body {
 }
 
 .timeline i {
-    color: #678;
+    color: palevioletred;
 }
 
 .timeline-box {
@@ -222,7 +225,7 @@ body {
     background-color: #678;
     color: white;
     display: inline-block;
-
+    background-color: palevioletred;
 }
 
 /* .box:hover
@@ -323,7 +326,7 @@ body {
 }
 
 .skills i {
-    color: #678;
+    color: papayawhip;
     font-weight: bold;
 }
 
@@ -338,7 +341,7 @@ body {
 
 .skills .progress h3 {
     text-transform: capitalize;
-    color: #8a5674;
+    color: #999;
     margin: .5em;
 }
 
@@ -363,9 +366,9 @@ body {
     padding-bottom: 1em;
     text-align: center;
     overflow: hidden;
-    border-top: .2em solid #8a5674;
+    border-top: .2em solid #fff;
     border-top-style: dashed;
-    border-bottom: .2em solid #8a5674;
+    border-bottom: .2em solid #fff;
     border-bottom-style: dashed;
 }
 
@@ -385,7 +388,7 @@ body {
 }
 
 .testmonial ul li {
-    color: #8a5674;
+    color: #eee;
     width: 1em;
     height: 1em;
     display: inline-block;
@@ -540,7 +543,7 @@ body {
     font-family: Oswald, sans-serif;
     font-size: 1.75em;
     padding: 0.6em 0 0.6em 0.4em;
-    color: white;
+    color: rgba(25, 25, 112, 1);
     text-shadow: 0 0.06em 0 #424242;
     position: relative;
 }
@@ -771,7 +774,7 @@ body {
 
 /* end new contact style*/
 .footer {
-    background-color: #4b3bff;
+    background-color: rgba(30, 30, 130, 3);
     color: #ddd;
     padding: 1em;
     overflow: hidden;
@@ -795,7 +798,7 @@ body {
 
 .footer h4 span {
     color: snow;
-    background-color: #ff3bef;
+    background-color: palevioletred;
 }
 
 .footer ul {
@@ -848,12 +851,12 @@ body {
 }
 
 .page-h2 {
-    color: #832032;
+    color: #eee;
     text-transform: capitalize;
 }
 
 .page-p {
-    color: #832032;
+    color: #eee;
     line-height: 2em;
 }
 
